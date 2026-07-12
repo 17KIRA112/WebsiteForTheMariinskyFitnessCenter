@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Фитнес-зал Мариинский в Санкт-Петербурге - современный фитнес-клуб с профессиональными тренерами">
+    <meta name="keywords" content="фитнес, тренажерный зал, йога, кроссфит, Санкт-Петербург">
+    <title>Фитнес-зал "Мариинский" | Современный фитнес-клуб</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo">
+                    <div class="logo-icon">M</div>
+                    <span>Мариинский</span>
+                </a>
+                
+                <nav class="nav" id="nav">
+                    <a href="#home" class="nav-link active">Главная</a>
+                    <a href="#services" class="nav-link">Услуги</a>
+                    <a href="#schedule" class="nav-link">Расписание</a>
+                    <a href="#pricing" class="nav-link">Цены</a>
+                    <a href="#gallery" class="nav-link">Галерея</a>
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </nav>
+                
+                <a href="#contact" class="header-cta">Записаться</a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80" alt="Современный фитнес зал">
+            </div>
+            <div class="hero-overlay"></div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span>🏆</span>
+                        <span>Лучший фитнес-клуб 2026</span>
+                    </div>
+                    
+                    <h1>Ваша лучшая форма начинается здесь</h1>
+                    <p class="hero-subtitle">Фитнес-зал "Мариинский" - пространство, где достигают целей</p>
+                    <p class="hero-description">
+                        Современное оборудование TechnoGym, профессиональные тренеры с международными сертификатами 
+                        и атмосфера, которая вдохновляет на результат каждый день.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            Начать тренировки
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="#services" class="btn btn-secondary">Узнать больше</a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1500+</span>
+                            <span class="stat-label">Клиентов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25</span>
+                            <span class="stat-label">Тренеров</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Занятий в неделю</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Что мы предлагаем</span>
+                    <h2 class="section-title">Наши направления</h2>
+                    <p class="section-subtitle">
+                        От классического бодибилдинга до современных функциональных тренировок — 
+                        найдите то, что подходит именно вам
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">💪</div>
+                        <h3>Тренажерный зал</h3>
+                        <p>500м² пространства с оборудованием TechnoGym и Hammer Strength. 
+                           Свободные веса, блочные тренажеры и функциональные зоны.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">🧘</div>
+                        <h3>Йога и пилатес</h3>
+                        <p>Групповые занятия всех уровней. Восстановление подвижности, 
+                           укрепление мышечного корсета и ментальное равновесие.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">🏃</div>
+                        <h3>Кардио-театр</h3>
+                        <p>30 современных кардиотренажеров с индивидуальными экранами. 
+                           Беговые дорожки, эллипсы, велотренажеры и степперы.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">🥊</div>
+                        <h3>Бокс и ММА</h3>
+                        <p>Профессиональный ринг, груши и зона для единоборств. 
+                           Тренировки для всех уровней подготовки.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">🏋️‍♀️</div>
+                        <h3>Кроссфит</h3>
+                        <p>Функциональные тренировки высокой интенсивности. 
+                           Развитие силы, выносливости и координации.</p>
+                    </div>
+                    
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">👨‍👩‍👧</div>
+                        <h3>Персональные тренировки</h3>
+                        <p>Индивидуальные программы от сертифицированных тренеров. 
+                           Достижение целей быстрее и безопаснее.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="schedule" id="schedule">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Расписание</span>
+                    <h2 class="section-title">Групповые занятия</h2>
+                    <p class="section-subtitle">
+                        Более 50 групповых занятий в неделю — от утренней йоги до вечерних силовых тренировок
+                    </p>
+                </div>
+                
+                <div class="schedule-tabs">
+                    <button class="tab-btn active" data-day="monday">Пн</button>
+                    <button class="tab-btn" data-day="tuesday">Вт</button>
+                    <button class="tab-btn" data-day="wednesday">Ср</button>
+                    <button class="tab-btn" data-day="thursday">Чт</button>
+                    <button class="tab-btn" data-day="friday">Пт</button>
+                    <button class="tab-btn" data-day="saturday">Сб</button>
+                    <button class="tab-btn" data-day="sunday">Вс</button>
+                </div>
+                
+                <div class="schedule-content">
+                    <!-- Monday -->
+                    <div class="schedule-day active" id="monday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">07:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Утренняя йога</div>
+                                <div class="schedule-trainer">Анна Петрова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">10:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Силовая тренировка</div>
+                                <div class="schedule-trainer">Iван Сидоров</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">18:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Кроссфит WOD</div>
+                                <div class="schedule-trainer">Михаил Волков</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">19:30</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Пилатес</div>
+                                <div class="schedule-trainer">Елена Соколова</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tuesday -->
+                    <div class="schedule-day" id="tuesday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">08:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Кардио-микс</div>
+                                <div class="schedule-trainer">Ольга Морозова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">12:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Бокс для начинающих</div>
+                                <div class="schedule-trainer">Дмитрий Козлов</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">19:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Йога Hatha</div>
+                                <div class="schedule-trainer">Анна Петрова</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Wednesday -->
+                    <div class="schedule-day" id="wednesday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">07:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Утренняя йога</div>
+                                <div class="schedule-trainer">Анна Петрова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">18:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Силовая тренировка</div>
+                                <div class="schedule-trainer">Iван Сидоров</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">20:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Стретчинг</div>
+                                <div class="schedule-trainer">Елена Соколова</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Thursday -->
+                    <div class="schedule-day" id="thursday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">09:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Пилатес</div>
+                                <div class="schedule-trainer">Елена Соколова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">18:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Кроссфит WOD</div>
+                                <div class="schedule-trainer">Михаил Волков</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">19:30</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Бокс продвинутый</div>
+                                <div class="schedule-trainer">Дмитрий Козлов</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Friday -->
+                    <div class="schedule-day" id="friday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">07:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Утренняя йога</div>
+                                <div class="schedule-trainer">Анна Петрова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">17:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Силовая тренировка</div>
+                                <div class="schedule-trainer">Iван Сидоров</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">19:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Кардио-микс</div>
+                                <div class="schedule-trainer">Ольга Морозова</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Saturday -->
+                    <div class="schedule-day" id="saturday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">10:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Семейная тренировка</div>
+                                <div class="schedule-trainer">Iван Сидоров</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">12:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Кроссфит Open</div>
+                                <div class="schedule-trainer">Михаил Волков</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">15:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Йога Vinyasa</div>
+                                <div class="schedule-trainer">Анна Петрова</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sunday -->
+                    <div class="schedule-day" id="sunday">
+                        <div class="schedule-item">
+                            <span class="schedule-time">10:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Воскресная йога</div>
+                                <div class="schedule-trainer">Анна Петрова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">12:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Стретчинг</div>
+                                <div class="schedule-trainer">Елена Соколова</div>
+                            </div>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">16:00</span>
+                            <div class="schedule-info">
+                                <div class="schedule-class">Пилатес</div>
+                                <div class="schedule-trainer">Елена Соколова</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Абонементы</span>
+                    <h2 class="section-title">Выберите свой формат</h2>
+                    <p class="section-subtitle">
+                        Гибкая система абонементов — от разовых посещений до годовых программ
+                    </p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card animate-on-scroll">
+                        <div class="pricing-header">
+                            <h3>Разовое</h3>
+                            <div class="pricing-price">350₽</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Доступ в тренажерный зал</li>
+                            <li>Доступ в кардио-зону</li>
+                            <li>Раздевалка и душ</li>
+                            <li>Бесплатный Wi-Fi</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full">Выбрать</a>
+                    </div>
+                    
+                    <div class="pricing-card featured animate-on-scroll">
+                        <div class="pricing-badge">Популярный</div>
+                        <div class="pricing-header">
+                            <h3>Месяц</h3>
+                            <div class="pricing-price">2 900₽</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Безлимитный доступ 24/7</li>
+                            <li>Все зоны фитнес-клуба</li>
+                            <li>Групповые занятия</li>
+                            <li>1 персональная тренировка</li>
+                            <li>Заморозка на 7 дней</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Выбрать</a>
+                    </div>
+                    
+                    <div class="pricing-card animate-on-scroll">
+                        <div class="pricing-header">
+                            <h3>Год</h3>
+                            <div class="pricing-price">24 900₽</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Безлимитный доступ 24/7</li>
+                            <li>Все зоны фитнес-клуба</li>
+                            <li>Групповые занятия</li>
+                            <li>5 персональных тренировок</li>
+                            <li>Zаморозка на 60 дней</li>
+                            <li>Скидка 20% на услуги</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full">Выбрать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Интерьер</span>
+                    <h2 class="section-title">Пространство для ваших достижений</h2>
+                    <p class="section-subtitle">
+                        1200м² современного пространства, созданного для комфорта и результата
+                    </p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop" alt="Тренажерный зал">
+                        <div class="gallery-overlay">
+                            <span>Тренажерный зал</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&h=400&fit=crop" alt="Кардио-зона">
+                        <div class="gallery-overlay">
+                            <span>Кардио-театр</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop" alt="Свободные веса">
+                        <div class="gallery-overlay">
+                            <span>Зона свободных весов</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=400&fit=crop" alt="Зал для групповых занятий">
+                        <div class="gallery-overlay">
+                            <span>Студия групповых программ</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=600&h=400&fit=crop" alt="Зона растяжки">
+                        <div class="gallery-overlay">
+                            <span>Зона восстановления</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=600&h=400&fit=crop" alt="Раздевалка">
+                        <div class="gallery-overlay">
+                            <span>Премиум раздевалки</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Контакты</span>
+                    <h2 class="section-title">Начните свой путь сегодня</h2>
+                    <p class="section-subtitle">
+                        Оставьте заявку и мы свяжемся с вами в течение 15 минут
+                    </p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Адрес</h4>
+                                <p>ул. Советский просп., 4А, Вытегра</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Телефон</h4>
+                                <p><a href="tel:+79315009950">+7 (931) 500-99-50</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-details">
+                                <h4>Режим работы</h4>
+                                <p>Пн-Пт: 07:00 - 23:00<br>Сб-Вс: 09:00 - 22:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Комментарий (необязательно)" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6038472949075!2d30.34499331601532!3d59.93428028360977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963950607ce6df%3A0x6c7c96da333a10e1!2z0J3QvtCy0L7QstC-0YHQuNGC0LrQsNGPINGD0LvQuNGG0LAsIDIsINCh0LDQvdC60YIt0J_QtdGC0LHRgNCw0Y9MiwgMTkxMTg2!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">M</div>
+                    <span>Мариинский</span>
+                </div>
+                
+                <p class="footer-text">
+                    Фитнес-зал "Мариинский" — ваш партнер в достижении фитнес-целей с 2015 года
+                </p>
+                
+                <div class="footer-social">
+                    <a href="https://vk.com/id532532699" class="social-link" aria-label="ВКонтакте">VK</a>
+                </div>
+                
+                <p class="footer-copyright">
+                    © 2026 Фитнес-зал "Мариинский". Все права защищены.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
